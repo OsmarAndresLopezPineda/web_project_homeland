@@ -1,0 +1,14 @@
+.page {
+  /* Tamaño de pantalla y centrado horizontal */
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+
+  /* Fuentes Inter y Noto Serif y fuentes alternativas */
+  font-family: "Inter", Arial, sans-serif;
+
+  background-color: #2a2c2f;
+}
+
+.content {
+}

@@ -1,0 +1,17 @@
+.footer {
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
+
+.footer__author {
+  /*Posicionamiento*/
+  margin: 0 auto;
+  text-align: center;
+
+  /*Propiedades*/
+  max-width: 194px;
+  color: #ffffff;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
