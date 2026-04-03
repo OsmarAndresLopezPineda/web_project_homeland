@@ -1,14 +1,30 @@
 .page {
-  /* Tamaño de pantalla y centrado horizontal */
-  max-width: 1280px;
-  margin-right: auto;
-  margin-left: auto;
+  /* Tamaño de pantalla */
+  width: 100%; /* 100% del tamaño de pantalla */
+  max-width: 1280px; /* Tamaño maximo permitido por el brief */
+  /* Centrado automatico */
+  margin: 0 auto;
 
   /* Fuentes Inter y Noto Serif y fuentes alternativas */
   font-family: "Inter", Arial, sans-serif;
 
   background-color: #2a2c2f;
+
+  /* Espacio mobiles */
+  padding: 20px 16px 24px;
+  box-sizing: border-box; /*Evita que se desborde la pagina*/
 }
 
-.content {
+/* Espacio tablets */
+@media screen and (min-width: 544px) {
+  .page {
+    padding: 30px 24px 24px;
+  }
+}
+
+/* Espacio Desktop */
+@media screen and (min-width: 1024px) {
+  .page {
+    padding: 34px 148px 24px;
+  }
 }
