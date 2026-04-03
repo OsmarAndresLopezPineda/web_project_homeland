@@ -1,0 +1,23 @@
+# Indica que este es el archivo raíz
+root = true
+
+# Configuración general
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Archivos de código
+[*.{js,ts,css,html}]
+indent_style = space
+indent_size = 2
+
+# Archivos JSON
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Markdown (no eliminar espacios finales)
+[*.md]
+trim_trailing_whitespace = false

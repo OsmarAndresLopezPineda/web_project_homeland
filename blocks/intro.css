@@ -1,55 +1,131 @@
 .intro {
-  padding-left: 148px;
+  width: 100%;
 }
 
 .intro__title {
   /*Posicionamiento*/
   margin: 0;
 
-  /*Propiedades*/
-  max-width: 830px;
   color: #ffffff;
-  line-height: 58px;
-  font-size: 54px;
+
+  /*Propiedades mobile*/
   font-weight: 900;
+  font-size: 32px;
+  line-height: 1.09;
 }
 
 .intro__paragraph {
   /*Posicionamiento*/
   margin: 0;
+
+  color: #ffffff;
+
+  /*Propiedades mobile*/
   margin-top: 40px;
 
-  /*Propiedades*/
-  max-width: 738px;
-  color: #ffffff;
-  line-height: 34px;
-  font-size: 24px;
   font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
 }
 
 .intro__author {
   /*Posicionamiento*/
   margin: 0;
-  margin-top: 10px;
   text-align: end;
 
-  /*Propiedades*/
-  max-width: 732px;
   color: #ffffff;
-  line-height: 34px;
-  font-size: 24px;
+
+  /*Propiedades mobile*/
+  margin-top: 10px;
+
   font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
 }
 
 .intro__content {
   /*Posicionamiento*/
   margin: 0;
-  margin-top: 32px;
+
+  color: #ffffff;
 
   /*Propiedades*/
-  max-width: 722px;
-  color: #ffffff;
-  line-height: 163%;
-  font-size: 16px;
+  margin-top: 32px;
+
   font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+}
+
+/* Espacio tablet */
+@media screen and (min-width: 544px) {
+  .intro {
+    max-width: 720px;
+  }
+
+  .intro__title {
+    /*Propiedades*/
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 1.1;
+  }
+  .intro__paragraph {
+    /*Propiedades mobile*/
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .intro__author {
+    /*Propiedades*/
+    margin-top: 32px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+/* Espacio Desktop */
+@media screen and (min-width: 1024px) {
+  .intro {
+    max-width: 830px;
+  }
+
+  .intro__title {
+    /*Propiedades*/
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 1.08;
+  }
+
+  .intro__paragraph {
+    /*Posicionamiento*/
+    margin-top: 40px;
+
+    /*Propiedades*/
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .intro__author {
+    /*Posicionamiento*/
+    margin-top: 10px;
+
+    /*Propiedades mobile*/
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .intro__author {
+    /*Propiedades*/
+    margin-top: 32px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+  }
 }

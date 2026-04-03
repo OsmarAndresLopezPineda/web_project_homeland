@@ -1,6 +1,6 @@
 .footer {
-  padding-top: 92px;
-  padding-bottom: 24px;
+  /* Padding Mobile */
+  padding-top: 64px;
 }
 
 .footer__author {
@@ -8,10 +8,26 @@
   margin: 0 auto;
   text-align: center;
 
+  color: #ffffff;
+
   /*Propiedades*/
   max-width: 194px;
-  color: #ffffff;
+
   line-height: 16px;
   font-size: 14px;
   font-weight: 400;
+}
+
+/* Espacio tablet */
+@media screen and (min-width: 544px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+/* Espacio Desktop */
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-top: 92px;
+  }
 }
