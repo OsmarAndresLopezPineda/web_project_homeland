@@ -19,3 +19,7 @@ En este proyecto se utiliza diseño web adaptatrrivo para smartphone, tablet y e
 Voy a empezar a colocar menos comentarios y limitarme solo a poner para que sirve cada segmento del codigo, para que sea legible mas facilmente.
 Ademas voy a estudiar y poner en practica tecnicas de sobre metodologia y estructuramiento BEM para quer mi codigo pueda ser reutilizable y dinamico.
 Aprendere mas sobre las psudo-clases para volver mi siotio wweb mas dinamico y atractivo para el usuario.
+
+### Github Pages:
+
+- https://osmarandreslopezpineda.github.io/web_project_homeland/
