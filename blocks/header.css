@@ -125,12 +125,6 @@
     margin-bottom: 22px;
   }
 
-  .header__logo-text {
-    /*Dimensiones imagen*/
-    width: 254.84px;
-    height: 14.94px;
-  }
-
   .header__title {
     /*Posicionamiento*/
     margin-top: 91px;
@@ -145,10 +139,6 @@
   .header__subtitle {
     /*Propiedades*/
     margin-top: 32px;
-
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 1.2;
   }
 
   .header__image {
