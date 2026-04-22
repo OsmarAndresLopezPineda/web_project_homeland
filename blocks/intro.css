@@ -103,21 +103,6 @@
   .intro__paragraph {
     /*Posicionamiento*/
     margin-top: 40px;
-
-    /*Propiedades*/
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.4;
-  }
-
-  .intro__author {
-    /*Posicionamiento*/
-    margin-top: 10px;
-
-    /*Propiedades mobile*/
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.4;
   }
 
   .intro__author {

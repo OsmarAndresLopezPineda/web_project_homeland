@@ -1,0 +1,61 @@
+.galery {
+  /* Padding Mobile */
+  padding-top: 38px;
+}
+
+.galery__list {
+  /*Posicionamiento*/
+  display: grid;
+  gap: 12px;
+
+  margin: 0;
+  padding: 0;
+
+  /*Caracteristuicas de lista*/
+  list-style: none;
+}
+
+.galery__item {
+}
+
+.galery__photo {
+  width: 100%;
+  /*Convertimos en bloque para eliminar el espacio inferior*/
+  display: block;
+}
+
+.galery__photo:hover {
+  filter: brightness(50%);
+}
+
+/* Espacio tablet */
+@media screen and (min-width: 544px) {
+  .galery {
+    padding-top: 64px;
+  }
+
+  .galery__list {
+    /*Posicionamiento*/
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+/* Espacio Desktop */
+@media screen and (min-width: 1024px) {
+  .galery {
+    padding-top: 118px;
+
+    /*Posicionamiento*/
+    /*100% del contenedor + 100px de cada lado (como en el figma) */
+    width: calc(100% + 200px);
+    position: relative;
+    right: 100px; /*Centramos*/
+  }
+
+  .galery__list {
+    /*Posicionamiento*/
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+}
